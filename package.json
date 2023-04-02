@@ -1,0 +1,27 @@
+{
+  "name": "web-gpt",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/server.js",
+    "dev": "npx ts-node server.ts"
+  },
+  "dependencies": {
+    "config": "^3.3.9",
+    "debug": "^4.1.7",
+    "express": "^4.17.17",
+    "morgan": "^1.9.4",
+    "ts-node": "^10.9.1",
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "@types/config": "^3.3.0",
+    "@types/debug": "^4.1.7",
+    "@types/express": "^4.17.17",
+    "@types/morgan": "^1.9.4",
+    "@types/node": "^18.15.11",
+    "@types/ws": "^8.5.4",
+    "typescript": "^5.0.3"
+  }
+}
